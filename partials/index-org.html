@@ -1,0 +1,14 @@
+<div class="org">
+    <div class="area courses">
+        <div class="header">
+            <span class="title icon icon-course">热门课程</span>
+            <span class="button-all" ui-sref="home.course-list({isPublic: false})">全部</span>
+        </div>
+        <div class="content">
+            <div class="course" ng-repeat="course in courses" ui-sref="home.courses({courseId: course.id})">
+                <img ng-src="{{course.cover}}" alt="course.name"/>
+                <span ng-bind="course.name"></span>
+            </div>
+        </div>
+    </div>
+</div>
