@@ -1,7 +1,8 @@
+package/
 .DS_Store
 .idea/
 bower_components/
 node_modules/
 www/*
 !www/partials/
-!www/index.html
+!www/index.htmlpackage/
